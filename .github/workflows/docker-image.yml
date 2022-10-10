@@ -61,5 +61,5 @@ jobs:
           push: ${{ github.event_name != 'pull_request' }}
 # 给清单打上多个标签
           tags: |
-            pomofsm/mastodon:latest
-            pomofsm/mastodon:${{ steps.date.outputs.today }}  
+            petmastodon/mastodon:latest
+            petmastodon/mastodon:${{ steps.date.outputs.today }}  
